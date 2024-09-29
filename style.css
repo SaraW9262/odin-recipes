@@ -1,64 +1,160 @@
 body {
-    font-family: Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 1.2rem;
     background-color: rgb(41, 41, 41);
 }
 
 .header {
-    background-color: rgb(233, 47, 47);
-    height: 50px;  
+    background-color: #e92f2f;
+    height: 4lh;  
     margin-left: auto;
     margin-right: auto;
-   
+   }
+
+#cover-image {
+    margin-bottom: -4px;
 }
 
+.header-recipe1 {
+    background-color: rgb(36, 121, 2);
+    height: 4lh;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-recipe2 {
+    background-color: rgb(190, 162, 1);
+    height: 6lh;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-recipe3 {
+    background-color: rgb(0, 144, 201);
+    height: 4lh;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 h1 {
-    font-family: "Sacramento", cursive;
     font-weight: 900;
     font-style: normal;
-    font-size: 2rlh;
     text-align:center;
+    padding-top: 20px;
     
 }
 
 .container1 {
-    width: 60%;
-    background-color: grey;
+    width: 80%;
+    background-color: rgb(41, 41, 41);
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    padding: 0;
+    border: 0;
     
-    
-  
 }
 
-
-img {
-    margin-left: auto; 
+.container2 {
+    width: 80%;
+    background-color: rgb(145, 145, 145);
+    margin-left: auto;
     margin-right: auto;
-}
-
-.text {
-    width:60%; 
-    margin: auto;
-}
-
-.home-menu {
     text-align: center;
 }
 
-#menu {
-    text-align: left;
+.recipe-image{
+    padding-top: 25px;
 }
 
-div p {
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #0e005a;
     
+}
+
+a:visited {
+    color: #0d0144;
+}
+
+a:hover {
+    color:black;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+}
+
+
+table {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+td {
+    width: 30%;
+    height: 3lh;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+     
+}
+
+td a {
+    font-size: large;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+td a:link {
+    color: #e92f2f;
+    
+}
+
+td a:visited {
+    color: #e92f2f;
+    
+}
+
+td a:hover {
+    color: #000;
+}
+
+td a:active {
+    color: black;
+}
+
+
+
+
+
+.icons {
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.text {
+    padding: 25px;
+    text-align: left;
 }
 
 #home-link {
     text-align:center; 
-    font-size: small;"
 }
+
 
 footer {
     text-align:center; 
-    font-size: smaller;
+    font-size: medium;
 }
