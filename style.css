@@ -1,12 +1,41 @@
-h1 {
-    text-align:center;
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(41, 41, 41);
 }
 
+.header {
+    background-color: rgb(233, 47, 47);
+    height: 50px;  
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2rlh;
+    text-align:center;
+    
+}
+
+.container1 {
+    width: 60%;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  
+}
+
+
 img {
-    display: block; 
     margin-left: auto; 
     margin-right: auto;
 }
+
 .text {
     width:60%; 
     margin: auto;
@@ -17,7 +46,6 @@ img {
 }
 
 #menu {
-    display: inline-block; 
     text-align: left;
 }
 
