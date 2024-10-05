@@ -169,7 +169,6 @@ a:hover {
 }
 
 .menu-text a{
-
     font-weight: 900;
     color: black;
     text-transform: uppercase;
@@ -345,30 +344,37 @@ a:hover {
     
 }
 
-.recipe-background {
+.recipe-background-souvlaki {
     background-color: #bea283;
     padding-bottom: 10px;
     background: linear-gradient(rgba(83, 59, 33, 0.7), rgba(83, 59, 33, 0.7)), url("./images/souvlaki.webp");       
 }
 
+.recipe-background-chicken-rice-porridge {
+    background-color: #bea283;
+    padding-bottom: 10px;
+    background: linear-gradient(rgba(83, 59, 33, 0.7), rgba(83, 59, 33, 0.7)), url("./images/chicken-rice-porridge.jpg"); 
+}
 
-
-
+.recipe-background-kung-pao-chicken {
+    background-color: #bea283;
+    padding-bottom: 10px;
+    background: linear-gradient(rgba(83, 59, 33, 0.7), rgba(83, 59, 33, 0.7)), url("./images/kung-pao-chicken.webp"); 
+}
 
 .recipe-header {
     /* border: 5px solid grey; */
     
-
+    background-color: rgb(26, 26, 26);
+    
+    color: #eba75f;
+    font-size: medium;
 
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 
-    background-color: rgb(26, 26, 26);
-    
-    padding: 0 40px;
- 
-    font-size: medium;
-    color: #eba75f;
+    padding: 5px 40px;
 
     
     
@@ -503,159 +509,3 @@ a:hover {
 
 
 
-
-
-/*.header {
-    background-color: #61b3ff;
-    height: 4lh;  
-    margin-left: auto;
-    margin-right: auto;
-   }
-
-#cover-image {
-    margin-bottom: -4px;
-}
-
-.header-recipe1 {
-    background-color: rgb(36, 121, 2);
-    height: 4lh;  
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header-recipe2 {
-    background-color: rgb(190, 162, 1);
-    height: 6lh;  
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header-recipe3 {
-    background-color: rgb(0, 144, 201);
-    height: 4lh;  
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-h1 {
-    font-weight: 900;
-    font-style: normal;
-    text-align:center;
-    padding-top: 20px;
-    
-}
-
-.container1 {
-    width: 80%;
-    background-color: rgb(41, 41, 41);
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 0;
-    border: 0;
-    
-}
-
-.container2 {
-    width: 80%;
-    background-color: rgb(145, 145, 145);
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.recipe-image{
-    padding-top: 25px;
-}
-
-
-a {
-    text-decoration: none;
-}
-a:link {
-    color: #0e005a;
-    
-}
-
-a:visited {
-    color: #0d0144;
-}
-
-a:hover {
-    color:black;
-    text-shadow: #FC0 1px 0 10px;
-}
-
-a:active {
-    color: rgb(0, 0, 0);
-}
-
-
-table {
-    width: 100%;
-    margin: 0;
-    border: 0;
-    border-collapse: collapse;
-}
-
-td {
-    width: 30%;
-    height: 3lh;
-    vertical-align: middle;
-    text-align: center;
-    padding: 0;
-     
-}
-
-td a {
-    font-size: large;
-    font-weight: 600;
-    text-transform: uppercase;
-    
-}
-
-td a:link {
-    color: #e92f2f;
-    
-}
-
-td a:visited {
-    color: #e92f2f;
-    
-}
-
-td a:hover {
-    color: #000;
-}
-
-td a:active {
-    color: black;
-}
-
-
-
-
-
-.icons {
-    width: 100%;
-    height: auto;
-    
-    
-}
-
-.text {
-    padding: 25px;
-    text-align: left;
-}
-
-#home-link {
-    text-align:center; 
-}
-
-
-footer {
-    text-align:center; 
-    font-size: medium;
-}*/
