@@ -3,12 +3,14 @@ body {
     font-size: 1.2rem;
     
     
+    
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .main-container {
@@ -191,74 +193,110 @@ a:hover {
 .nav-container {
     /* border: 5px solid green; */
     background-color: #eba75f;
-
+    
     
     width: 100%;
-    max-height: 100px;
+    height: 100px;
     margin-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    
 
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center ; 
+    justify-content: space-between;  
 
     filter: drop-shadow(0 3px 5px #252525);
     
     
-    
-    
 }
 
-.nav-social {
-    /* border: 5px solid yellow; */
-    flex-basis: 30%;
-    
-    min-width: 100px;
-    margin: 15px 0;
+.nav-container-border-social, .nav-container-border-next {
 
+    width: 30%;
+    height: 85%;
+    margin: 0;
+    border-top: 3px dotted #252525;
+    border-bottom: 3px dotted #252525;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.nav-social {
+    /* border: 2px solid yellow; */
+            
 }
 
 .nav-social-text {
-    min-width: ;
     font-size: small;
-    
+    width: 100%;
+     
 }
-
 
 .nav-social-buttons {
-    /* border: 5px solid blue; */
-
     margin-top: 5px;
-    
     display: flex;
     justify-content:flex-start;
+    align-items: flex-start;
     gap: 10px;
-
     
 }
 
-.nav-header {
-    display: inline;
+.nav-social-buttons img {
+   width: 35px;   
+
 }
+
+.nav-social-buttons img:hover {
+    filter: brightness(0.5);
+}
+
+
+
+
+.nav-next {
+    /* border: 5px solid red; */
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.nav-next-text {
+    /* border: 5px solid red; */
+
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 3px 5px  #252525;   
+}
+
+.nav-next-text:hover {
+    /* border: 5px solid red; */
+    font-size: larger;
+
+}
+
+
+
 
 .nav-header-card {
     background-color: #252525;
     
-    margin: -20px 10px;
+    margin: -20px 0px;
 
     padding:10px;
 
-    width: 350px;
+    width: 40%;
+    min-width: 200px;
+    
     height: 120px;
 
     display: flex;
+
     justify-content: center;
     filter: drop-shadow(0 3px 5px #252525);
 }
@@ -275,7 +313,7 @@ a:hover {
 }
 
 .nav-header-text {
-    border: 2px dotted #eba75f;
+    border: 3px dotted #eba75f;
     width: 100%;
     height: 100%;
     color: #eba75f;
@@ -283,6 +321,8 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    text-align: center;
 }
 
 .nav-header-text a {
@@ -296,44 +336,12 @@ a:hover {
 
 
 
-.nav-next {
-    /* border: 5px solid red; */
-    flex-basis: 30%;
-    min-width: 100px;
-    margin: 15px 0;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.nav-next-text {
-    width: ;
-    font-size: small;
-    
-}
-
-
-.button-next {
-    /* border: 5px solid blue; */
-       
-    margin-top: 5px;
-    
-    display: flex;
-    justify-content:flex-start;
-    
-
-    
-}
-
-
 
 
 .recipe-content {
     flex-basis: 100%;
     background-color: #886642;
-    margin-top: 40px;
+    margin-top: 30px;
     
 }
 
@@ -357,9 +365,8 @@ a:hover {
 
     background-color: rgb(26, 26, 26);
     
-    padding: 10px 60px;
-
-  
+    padding: 0 40px;
+ 
     font-size: medium;
     color: #eba75f;
 
@@ -380,9 +387,8 @@ a:hover {
 .share-links {  
     
     margin: 10px 40px 0;
-    padding: 10px;
+    
     width: fit-content;
-
    
 
     display: flex;    
@@ -395,26 +401,50 @@ a:hover {
 
 }
 
-.share-links-text {
+
+.share-links img {
+    width: 35px;
+}
+
+
+.share-fb img:hover, .share-pinterest img:hover {
+    filter: brightness(0.5);
+}
+
+.share-print img:hover, .share-email img:hover {
+    opacity: 50%;
+    }
+
+
+
+
+.share-print, .share-email {
+    width: 35px;
+    height: 35px;
+    background-color: #886642;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-email img, .share-print img {
+    width: 25px;
+}
+
+.share-fb {
     
 }
 
-.share-print {
-    
-
-}
-
-.share-email{
+.share-pinterest {
     
 }
 
-.share-fb{
-    
-}
 
-.share-pinterest{
-    
-}
+
+
+
 
 .recipe-text {
     padding: 20px;
