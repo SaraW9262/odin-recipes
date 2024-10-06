@@ -347,19 +347,22 @@ a:hover {
 .recipe-background-souvlaki {
     background-color: #bea283;
     padding-bottom: 10px;
-    background: linear-gradient(rgba(83, 59, 33, 0.7), rgba(83, 59, 33, 0.7)), url("./images/souvlaki.webp");       
+    background: linear-gradient(rgba(83, 59, 33, 0.7), rgba(83, 59, 33, 0.7)), url("./images/souvlaki.webp");
+    background-size: cover;       
 }
 
 .recipe-background-chicken-rice-porridge {
     background-color: #bea283;
     padding-bottom: 10px;
     background: linear-gradient(rgba(83, 59, 33, 0.7), rgba(83, 59, 33, 0.7)), url("./images/chicken-rice-porridge.jpg"); 
+    background-size: cover;
 }
 
 .recipe-background-kung-pao-chicken {
     background-color: #bea283;
     padding-bottom: 10px;
     background: linear-gradient(rgba(83, 59, 33, 0.7), rgba(83, 59, 33, 0.7)), url("./images/kung-pao-chicken.webp"); 
+    background-size: cover;
 }
 
 .recipe-header {
@@ -396,6 +399,7 @@ a:hover {
     
     width: fit-content;
    
+   
 
     display: flex;    
     justify-items: center;
@@ -405,6 +409,10 @@ a:hover {
     font-size: medium;
        
 
+}
+
+.share-links-text {
+    font-weight: 600;
 }
 
 
